@@ -12,7 +12,7 @@ namespace ConexionOracle
 {
     public class Conexion
     {
-        string walletLocation = @"C:\Users\rodri\Desktop\Wallet_TBDEJ2025";
+        string walletLocation = @"Directori de la wallet";
         string connectionStringT = @"User Id = {0};Password={1};Data Source=(description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.us-ashburn-1.oraclecloud.com))(connect_data=(service_name=gb6234d5cff4813_tbdej2025_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))";
 
         //OracleConnection connection = null;
